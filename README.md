@@ -50,3 +50,53 @@ Analyze customer revenue distribution to identify high value customers and uncov
 - **Power BI**  
   - Interactive dashboard  
   - Data visualization (Pareto chart, segmentation, country comparison, detailed data table)
+
+---
+
+## How to Reproduce This Project
+
+### 1. Download the Dataset
+- Navigate to the `Dataset/` folder
+- Use:
+  - `Raw_Dataset/pet_shop_sales.csv` (raw data)
+  - or pre-processed files in `Dashboard_Dataset/`
+
+---
+
+### 2. Run SQL Queries (BigQuery)
+
+- Open BigQuery
+- Upload the dataset or create a table from CSV
+- Run queries in the `SQL/` folder in order:
+
+  1. `CTE_Headline_Insight.sql`
+  2. `CTE_Top_Customer_List.sql`
+  3. `CTE_Segement_Comparison.sql`
+  4. `CTE_Country_Concentration.sql`
+
+---
+
+### 3. Open Power BI Dashboard
+
+- Open file:
+ - `Dashboard/Pareto_Dashboard.pbix`
+ 
+- If needed:
+- Reconnect data source to your local CSV files
+- Refresh data
+
+---
+
+### 4. Explore the Dashboard
+
+The dashboard includes:
+- Pareto analysis (revenue concentration)
+- Customer segmentation
+- Country-level comparison
+- Detailed data table
+---
+
+## Notes
+
+- The dataset used is a simplified sample for demonstration purposes
+- All transformations are done using SQL (no manual preprocessing)
