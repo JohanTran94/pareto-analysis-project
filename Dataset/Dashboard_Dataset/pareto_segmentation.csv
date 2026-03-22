@@ -1,0 +1,3 @@
+customer_segment,number_of_customers,total_revenue,avg_revenue_per_customer,revenue_share_pct,customer_share_pct
+Top Pareto Customers,150,93249.3,621.66,80.05,57.47
+Remaining Customers,111,23240.94,209.38,19.95,42.53
